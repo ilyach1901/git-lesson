@@ -1,0 +1,172 @@
+*
+h1{color:blue; 
+margin-bottom:40px;
+text-align: center;
+padding: 20px;
+text-transform:none;
+}
+
+.homepage-text{
+width: 900px;
+margin:0 auto;
+padding:20px;
+color:aqua
+}
+
+.homepage1-text{
+    width: 900px;
+    margin:0 auto;
+    padding:20px;
+    color: rgb(113, 0, 128)
+    }
+.homepage2-text{
+    width: 900px;
+    margin:0 auto;
+    padding:20px;
+    color: rgb(128, 0, 0)
+        }
+.homepage3-text{
+    width: 900px;
+    margin:0 auto;
+    padding:20px;
+    color: rgb(0, 9, 128)
+                }
+    
+body{
+background: url(../images/zemli.jpg) no-repeat;
+background-size:cover;
+text-align: center;
+}
+h2{color:red; 
+    margin-bottom:40px;
+    text-align: center;
+    padding: 20px;
+    text-transform:none}
+    #block-img img{
+        border-radius: 50px;
+        border: 2px solid blue;
+        width: 300px;
+        }
+     #film-img img{
+        border-radius: 50px;
+        border: 2px solid blue;
+        width: 300px;
+            }
+    #filmi-img img{
+        border-radius: 50px;
+        border: 2px solid blue;
+        width: 300px;
+                    }
+    #mult-img img{
+        border-radius: 50px;
+        border: 2px solid blue;
+        width: 300px;
+    }
+    #mult2-img img{
+        border-radius: 50px;
+        border: 2px solid blue;
+        width: 300px;                                }
+    #mult3-img img{
+        border-radius: 50px;
+        border: 2px solid blue;
+        width: 300px;                                }
+    #serial-img img{
+        border-radius: 50px;
+        border: 2px solid blue;
+        width: 300px;                                }
+    #serial2-img img{
+        border-radius: 50px;
+        border: 2px solid blue;
+        width: 300px;                                }
+    #serial3-img img{
+        border-radius: 50px;
+        border: 2px solid blue;
+        width: 300px;                                }
+ul{ 
+    margin:0px auto ;
+    padding:auto;
+    list-style:none;
+    text-align: center; 
+    
+ }
+
+    ul{ 
+        margin:20px ;
+        padding:10px;
+        list-style:none;
+        text-align: center;  }
+
+li{padding:10px; }
+    
+
+
+        
+form {width: 500px ;
+    margin:auto;
+    padding:0px 300px 300px;
+    color:orange
+   
+}
+
+fieldset{
+    background: linear-gradient(to right,rgb(255, 230, 0),rgb(0, 13, 128));
+    
+}
+              
+button{
+    color: red
+    }
+form{ 
+    background: linear-gradient(to right,rgb(255, 230, 0),rgb(0, 13, 128));
+    padding:15px 15px 15px 15px 
+    
+     }
+                  
+          
+          .flex{
+            display: flex;
+            justify-content:left;
+            padding: 0px ;
+            margin: 0px ;
+            width: auto;
+            height: 20px ;
+            align-items:flex-end; }
+
+            li a{
+            text-decoration:none;
+            color:blue}
+            
+
+          
+
+        .about{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            max-width: 80%;
+            margin: 0 auto;
+            margin-top: 100px;
+            
+        }
+        .about h1{
+            color: red;
+            margin: 0 auto;
+            padding: 0px ;
+            background:white
+        }
+        .about div p{
+            color:yellow
+           
+        }
+        
+        .about img{
+            border-radius: 50px;
+            border: 2px solid red;
+            width: 300px;     
+        }
+
+    
+
+
+
+   

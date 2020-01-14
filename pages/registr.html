@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>регистрация</title>
+</head>
+<body>
+  <ul>
+<li><a href="../index.html">Главная Страница</a></li>
+  </ul>
+  <form>
+        <fieldset>
+            <p><label for="login_user_form">логин</label></p>
+            <input type="text" id="login_user_form" placeholder="логин" required>
+            <p><label for="name_user_form">имя</label></p>
+            <input type="text" id="name_user_form" placeholder="имя" required>
+            <p><label for="last-name_user_form">фамилия</label></p>
+            <input type="text" id="last-name_user_form" placeholder="фамилию" required>
+            <p>дата рождения</p>
+            <input type="date">
+            <p>какие у вас интересы?</p>
+            <label>
+                <span>фильмы</span>
+                <input type="checkbox">
+            </label>
+            <label>
+                <span>мультфильмы</span>
+                <input type="checkbox">
+            </label>
+            <label>
+                <span>сериалы</span>
+                <input type="checkbox">
+            </label>
+            <label>
+                <p>пароль</p>
+                <input type="password" required>
+            </label>
+            <label>
+                <p>повторите пароль</p>
+                <input type="password" required>
+            </label>
+            <p>пол</p>
+            <label>
+                <span>м</span>
+                <input type="radio" name="gender" value="man">
+            </label>
+            <label>
+                <span>ж</span>
+                <input type="radio" name="gender" value="woman">
+            </label>
+            <p><label for="email_user_form">адрес почты</label></p>
+            <input type="text" id="email_user_form" placeholder="адрес почты" required>
+            <label>
+            <p>ваш телефон</p>
+            <input type="number">
+            </label>
+            <label>
+            <p>загрузите вашу фотографию</p>
+            <input type="file">
+            </label>
+            <p></p>
+            <label>
+            <span>я не робот</span>
+            <input type="checkbox">
+            </label>
+            <p></p>
+            <button type="submit">регистрация</button>
+            <button type="reset">очистить</button>
+        </fieldset>
+    </form>
+</body>
+</html>
